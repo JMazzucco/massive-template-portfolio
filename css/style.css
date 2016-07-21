@@ -1465,6 +1465,7 @@ header.nav-block-left {
     width: 100%;
     height: auto;
     display: block;
+    border: 1px solid #222;
 }
 
 .portfolio-hover {
