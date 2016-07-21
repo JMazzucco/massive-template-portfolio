@@ -28,7 +28,7 @@
     bottom: 0;
     right: 0;
     margin: 0;
-    border: 20px solid rgba(0, 0, 0, 0.1);
+    // border: 20px solid rgba(0, 0, 0, 0.1);
     background-color: rgba(255, 255, 255, 0.90);
     opacity: 0;
     -webkit-transition: all 0.3s;
@@ -84,7 +84,7 @@
 .portfolio-description h4 a,
 .portfolio-hover .action-btn a {
     text-align: center;
-    color: #222;
+    color: #fff;
 }
 
 .portfolio-description h4 {
@@ -101,12 +101,12 @@
     /*font-family: 'Abel', sans-serif;*/
     font-weight: normal;
     letter-spacing: 3px;
-    color: #757575;
+    color: #fff;
 }
 
 .portfolio-description a,
 .portfolio-title a {
-    color: #757575;
+    color: #fff;
 }
 
 /*gutter*/
@@ -194,7 +194,7 @@
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color:#222
+    color:#fff
 }
 
 .portfolio-with-title .portfolio-title h3,
@@ -203,7 +203,7 @@
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color:#222
+    color:#fff
 }
 
 .portfolio-with-title .portfolio-title p {

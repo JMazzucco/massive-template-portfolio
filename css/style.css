@@ -1465,7 +1465,7 @@ header.nav-block-left {
     width: 100%;
     height: auto;
     display: block;
-    border: 1px solid #222;
+    border: 1px solid ;
 }
 
 .portfolio-hover {
@@ -1475,8 +1475,8 @@ header.nav-block-left {
     bottom: 0;
     right: 0;
     margin: 0;
-    border: 20px solid rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.90);
+    // border: 20px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.60);
     opacity: 0;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -1531,7 +1531,7 @@ header.nav-block-left {
 .portfolio-description h4 a,
 .portfolio-hover .action-btn a {
     text-align: center;
-    color: #222;
+    color: #fff;
 }
 
 .portfolio-description h4 {
@@ -1641,7 +1641,8 @@ header.nav-block-left {
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color:#222
+    color:#fff
+
 }
 
 .portfolio-with-title .portfolio-title h3,
@@ -1650,7 +1651,8 @@ header.nav-block-left {
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color:#222
+    color:#fff
+
 }
 
 .portfolio-with-title .portfolio-title p {
