@@ -1495,8 +1495,8 @@ header.nav-block-left {
 }
 
 .portfolio-item:hover .portfolio-hover .action-btn {
-    top: 40%;
-    margin-top: -55px;
+    top: 0%;
+    margin-top: 0px;
 }
 
 .portfolio-hover .portfolio-description {
