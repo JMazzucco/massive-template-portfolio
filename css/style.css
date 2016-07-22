@@ -156,7 +156,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #333;
+    color: #fff;
     font-weight: 600;
     line-height: 1.5;
     margin: 0 0 30px 0;
@@ -4623,4 +4623,8 @@ address p {
 
 .mailchimp label {
     font-weight: normal;
+}
+
+.page-title {
+    background-image: url("../img/portfolio-background.png");
 }
