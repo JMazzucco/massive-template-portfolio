@@ -1486,6 +1486,7 @@ header.nav-block-left {
 .portfolio-item:hover .portfolio-hover .portfolio-description,
 .portfolio-item:hover .portfolio-hover .action-btn {
     opacity: 1;
+    color: #fff;
 }
 
 
