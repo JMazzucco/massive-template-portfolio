@@ -4626,4 +4626,5 @@ address p {
 
 .page-title {
     background-image: url("../img/portfolio-background.png");
+    background-size: cover;
 }
