@@ -135,7 +135,7 @@ Table of contents
 
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Varela Round', 'Source Sans Pro', sans-serif;
     line-height: 1.5;
     color: #323232;
     font-size: 15px;
@@ -205,7 +205,7 @@ p {
 }
 
 p, li {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Varela Round', 'Source Sans Pro', sans-serif;
 }
 
 hr {
@@ -461,6 +461,8 @@ header.sticky .menuzord-menu>li>a {
     line-height: 100px;
 }
 
+
+
 header.sticky .logo-brand {
     line-height: 60px;
 }
@@ -497,7 +499,7 @@ header.sticky .logo-brand {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Varela Round', 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     letter-spacing: .5px;
     font-weight: normal;
@@ -565,6 +567,9 @@ header .dark-header .menuzord-menu>li>a>i
     color: #fff;
 }
 
+.dark-header .container {
+    padding: 0 50px;
+}
 
 .menuzord-menu>li.active>a,
 .menuzord-menu>li:hover>a {
@@ -608,7 +613,7 @@ header .dark-header .menuzord-menu>li>a>i
 }
 .menuzord-menu ul.dropdown li:hover>a {
     padding-right: 19px;
-    color: #333;
+    // color: #333;
     /*background: rgba(255,255,255,.06);*/
 }
 .menuzord-menu ul.dropdown.dropdown-left {
