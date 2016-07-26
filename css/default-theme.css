@@ -2,13 +2,6 @@
 Default theme  Stylesheet
 -------------------------------------------------------------------*/
 
-
-::selection {
-    background: #d6b161;
-    color: #FFF;
-    text-shadow: none;
-}
-
 ::-moz-selection {
     background: #d6b161; /* Firefox */
     color: #FFF;
@@ -58,12 +51,12 @@ a,
 .cd-nav .cd-primary-nav li.selected a,
 .no-touch .cd-nav .cd-primary-nav a:hover,
 .intro-portfolio a:hover{
-    color: #d6b161 ;
+    color: #00cb00 ;
 }
 
 .theme-color
 {
-    color: #d6b161 !important;
+    color: #00cb00 !important;
 }
 
 .theme-bg,
