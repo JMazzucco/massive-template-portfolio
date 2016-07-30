@@ -86,77 +86,77 @@
          nav sticky header
          --------------------------------------------- */
 
-        var navBottom = $(".nav-bottom").offset();
+        // var navBottom = $(".nav-bottom").offset();
 
-        $(window).scroll(function () {
-            var w = $(window).width();
-            if ($(".nav-bottom").length == 0) {
-                if (w > 768) {
-                    if ($(this).scrollTop() > 1) {
-                        $('header').addClass("sticky");
-                    }
-                    else {
-                        $('header').removeClass("sticky");
-                    }
-                }
-            } else {
-                if (w > 768) {
-                    if ($(this).scrollTop() > navBottom.top + 100) {
-                        $('header').addClass("sticky");
-                    }
-                    else {
-                        $('header').removeClass("sticky");
-                    }
-                }
-            }
-        });
+        // $(window).scroll(function () {
+        //     var w = $(window).width();
+        //     if ($(".nav-bottom").length == 0) {
+        //         if (w > 768) {
+        //             if ($(this).scrollTop() > 1) {
+        //                 $('header').addClass("sticky");
+        //             }
+        //             else {
+        //                 $('header').removeClass("sticky");
+        //             }
+        //         }
+        //     } else {
+        //         if (w > 768) {
+        //             if ($(this).scrollTop() > navBottom.top + 100) {
+        //                 $('header').addClass("sticky");
+        //             }
+        //             else {
+        //                 $('header').removeClass("sticky");
+        //             }
+        //         }
+        //     }
+        // });
 
 
-        //left nav remove sticky class
+        // //left nav remove sticky class
 
-        $(window).scroll(function () {
-            var w = $(window).width();
-            if (w > 768) {
-                $('.left-nav-fixed header').removeClass("sticky");
-            }
-        });
+        // $(window).scroll(function () {
+        //     var w = $(window).width();
+        //     if (w > 768) {
+        //         $('.left-nav-fixed header').removeClass("sticky");
+        //     }
+        // });
 
 
         /* ---------------------------------------------
          sticky header alt
          --------------------------------------------- */
 
-        $(window).scroll(function () {
-            var w = $(window).width();
-            if (w > 768) {
-                if ($(this).scrollTop() > 1) {
-                    $('.mainmenu').slideUp(function () {
-                        $('.menu-appear-alt').css({position: "fixed", top: 0, left: 0, width: w, zIndex: 99999});
-                        $('.menu-appear-alt').slideDown();
-                    });
+        // $(window).scroll(function () {
+        //     var w = $(window).width();
+        //     if (w > 768) {
+        //         if ($(this).scrollTop() > 1) {
+        //             $('.mainmenu').slideUp(function () {
+        //                 $('.menu-appear-alt').css({position: "fixed", top: 0, left: 0, width: w, zIndex: 99999});
+        //                 $('.menu-appear-alt').slideDown();
+        //             });
 
-                }
-                else {
-                    $('.menu-appear-alt').slideUp(function () {
-                        $('.menu-appear-alt').css({position: "relative", top: 0, left: 0, width: w, zIndex: 99999});
-                        $('.mainmenu').slideDown();
+        //         }
+        //         else {
+        //             $('.menu-appear-alt').slideUp(function () {
+        //                 $('.menu-appear-alt').css({position: "relative", top: 0, left: 0, width: w, zIndex: 99999});
+        //                 $('.mainmenu').slideDown();
 
-                    });
+        //             });
 
-                }
-            }
+        //         }
+        //     }
 
-            $(".nav-bottom").css("z-Index", 100000);
+        //     $(".nav-bottom").css("z-Index", 100000);
 
-            if (navBottom) {
-                if ($(window).scrollTop() > (navBottom.top)) {
-                    $(".nav-bottom").css({"position": "fixed", "top": "0px", "left": "0px"});
-                } else {
-                    $(".nav-bottom").css({"position": "fixed", top: navBottom.top - $(window).scrollTop() + "px"});
-                }
-            }
+        //     if (navBottom) {
+        //         if ($(window).scrollTop() > (navBottom.top)) {
+        //             $(".nav-bottom").css({"position": "fixed", "top": "0px", "left": "0px"});
+        //         } else {
+        //             $(".nav-bottom").css({"position": "fixed", top: navBottom.top - $(window).scrollTop() + "px"});
+        //         }
+        //     }
 
-        });
+        // });
 
 
         /* ---------------------------------------------
