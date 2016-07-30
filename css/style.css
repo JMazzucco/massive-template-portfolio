@@ -2152,6 +2152,10 @@ header.nav-block-left {
     border: 2px solid transparent;
 }
 
+.work-together-section {
+    padding: 150px 0;
+}
+
 .post-list-aside .post-img img.flex-active {
     border: 2px solid rgba(0, 0, 0, 0.8);
 }
