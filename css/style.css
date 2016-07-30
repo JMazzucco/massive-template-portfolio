@@ -359,6 +359,7 @@ header .logo-brand img {
     float: left;
 }
 
+
 header.sticky .logo-brand img, header.sticky .logo-brand img.retina  {
     height: 60px !important;
 }
@@ -461,7 +462,13 @@ header.sticky .menuzord-menu>li>a {
     line-height: 100px;
 }
 
-
+.logo-brand:hover {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+  color: #fff;
+}
 
 header.sticky .logo-brand {
     line-height: 60px;
