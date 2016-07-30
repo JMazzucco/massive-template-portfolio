@@ -59,6 +59,11 @@ a,
     color: #23b3c6 !important;
 }
 
+// li a:hover {
+//     color: white !important;
+//     text-decoration: underline !important;
+// }
+
 .theme-bg,
 .massive-progress.progress-theme-color .progress-bar,
 .massive-progress-alt.progress-theme-color .progress-bar,
