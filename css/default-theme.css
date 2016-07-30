@@ -51,12 +51,12 @@ a,
 .cd-nav .cd-primary-nav li.selected a,
 .no-touch .cd-nav .cd-primary-nav a:hover,
 .intro-portfolio a:hover{
-    color: #fff ;
+    color: #23b3c6 ;
 }
 
 .theme-color
 {
-    color: #fff !important;
+    color: #23b3c6 !important;
 }
 
 // li a:hover {
