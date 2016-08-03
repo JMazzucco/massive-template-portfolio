@@ -23,7 +23,6 @@
     padding-top: 0px;
     padding-left: 10px;
     position: relative;
-    overflow: visible;
     background-color: #222;
     font-size: 15px;
     color: #fff;
@@ -33,6 +32,7 @@
     box-sizing: border-box;
     box-shadow: none;
     line-height: 20px;
+    overflow: hidden;
 }
 .massive-progress .progress-bar > span{
     display: inline-block;

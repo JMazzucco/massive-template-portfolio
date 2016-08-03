@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="portfolio">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -24,6 +24,8 @@
     <link href="css/style-responsive.css" rel="stylesheet">
     <link href="css/default-theme.css?v=1" rel="stylesheet">
 
+
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -32,6 +34,8 @@
 </head>
 
 <body>
+
+
 
 <!--  preloader start -->
 <div id="tb-preloader">
@@ -51,7 +55,7 @@
                     <div id="massive-menu" class="menuzord">
 
                         <!--logo start-->
-                        <a href="#" class="logo-brand">
+                        <a ui-sref="portfolio" class="logo-brand">
                             JOHN Mazzucco
                             <p>{ web developer }</p>
                             <!-- <img src="img/logo.png" alt=""/> -->
@@ -60,9 +64,9 @@
 
                         <!--mega menu start-->
                         <ul class="menuzord-menu pull-right">
-                            <li class="active"><a class="link" href="#">Portfolio</a></li>
+                            <li class=""><a ui-sref="portfolio" class="link">Portfolio</a></li>
                             <!-- <li class=""><a href="blog.html">Blog</a></li> -->
-                            <li class=""><a class="link" href="about-me.html">About</a></li>
+                            <li class=""><a ui-sref="about" class="link">About</a></li>
                         </ul>
                         <!--mega menu end-->
 
@@ -73,105 +77,7 @@
         </header>
         <!--header end-->
 
-        <!--body content start-->
-        <section class="body-content page-content">
-            <div class="container">
-                <div class="row ">
-                    <div class="col-md-12">
-
-                        <div class="text-center">
-                            <ul class="portfolio-filter">
-                                <li class="active"><a href="#" data-filter="*">All</a></li>
-                                <li><a href="#" data-filter=".cat1">Web Apps</a></li>
-                                <li><a href="#" data-filter=".cat2">Static Sites</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="portfolio portfolio-with-title portfolio-masonry col-3 gutter ">
-
-                            <div class="portfolio-item cat1 ">
-                                <div class="thumb">
-                                    <img src="img/portfolio/masonry/dothework.png" alt="">
-                                    <a href="https://dothework.herokuapp.com">
-                                        <div class="portfolio-hover">
-                                            <div class="action-btn">
-                                                <i class="icon-link"></i>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="portfolio-item cat1 ">
-                                <div class="thumb">
-                                    <img src="img/portfolio/masonry/ttt.png" alt="">
-                                    <a href="http://johnmazzucco.codes/ttt/index.html">
-                                        <div class="portfolio-hover">
-                                            <div class="action-btn">
-                                                <i class="icon-link"></i>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="portfolio-item cat1 ">
-                                <div class="thumb">
-                                    <img src="img/portfolio/masonry/crowdreview.png" alt="">
-                                    <a href="https://rocky-forest-7006.herokuapp.com/">
-                                        <div class="portfolio-hover">
-                                            <div class="action-btn">
-                                                <i class="icon-link"></i>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="portfolio-item cat1 ">
-                                <div class="thumb">
-                                    <img src="img/portfolio/masonry/affiliates.png" alt="">
-                                    <a href="https://chrome.google.com/webstore/detail/amazon-affiliates/laebfeeomkndpdnhohpojpobgmekfhmj">
-                                        <div class="portfolio-hover">
-                                            <div class="action-btn">
-                                                <i class="icon-link"></i>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="portfolio-item cat2 ">
-                                <div class="thumb">
-                                    <img src="img/portfolio/masonry/ntx.png" alt="">
-                                    <a href="http://neurotechx.com/">
-                                        <div class="portfolio-hover">
-                                            <div class="action-btn">
-                                                <i class="icon-link"></i>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="portfolio-item cat1 ">
-                                <div class="thumb">
-                                    <img src="img/portfolio/masonry/seatyourself.png" alt="">
-                                    <a href="https://floating-woodland-9123.herokuapp.com/">
-                                        <div class="portfolio-hover">
-                                            <div class="action-btn">
-                                                <i class="icon-link"></i>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--body content end-->
+        <div ui-view></div>
 
         <!--footer start-->
         <footer id="footer" class="dark footer-4">
@@ -215,6 +121,9 @@
 <script src="js/imagesloaded.js"></script>
 <script src="js/scripts.js?8"></script>
 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+<script type="text/javascript" src="app/app.js"></script>
 
 </body>
 </html>
