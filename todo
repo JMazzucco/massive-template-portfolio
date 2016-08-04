@@ -1,0 +1,48 @@
+Improvements to make
+
+//SITE STRUCTURE//
+-start a new project and try to get Masonry-Angular to work. If you can, add it to the porfolio page.
+	-use the Angular UI Router to route pages
+	-use Angular for all links including the 'scroll-to-top' button
+	-Add jQuery to a directive
+-Remove all unused files from the Massive template
+-Clean up code - add comments, fix indentation
+-Store all libraries with a frontend package controller like Bower
+-Use Sass going forward
+
+//IMAGES//
+-Add a few mockup images, displaying the app/site on a phone, tablet, screen.
+-use http://m-goldstein.com/ as inspiration for images
+-Add 1 or 2 sliders where it would be helpful - i.e. show 3 pages or features
+-Remove borders and gutters
+Overlay: remove link icon and add the name of the app/site and some useful info about it
+
+//LAYOUT//
+-Make the site responsive
+	-use bootstrap when possible
+	-Add a better hamburger icon and dropdown
+	-use the logo for smaller viewports
+-Align footer text with icons
+-Add icons or images next to headers in the About pages
+-Show spinner until all images are loaded
+
+//CONTENT//
+-Make the "who am I" paragraph sound better
+
+//
+
+
+//SEO//
+-Use https by store CNAME file on cloudflare
+-make site WC3 compliant and accessible, etc
+-add description and key words
+-Read googles' suggestions: https://www.google.com/webmasters/tools/message-view?hl=en&authuser=0&message-filter=all&grid.r=0&msgid=AB9YKzJUMfrXPwYlcijs49FmqlN8JOFbr1O46-D27LV8MR5k-ptAG6rV8jR-1O9Y7YrLkruy-PK2
+-Add a site map
+-Add site to freelancing sites?
+-google verification in header
+
+//BLOG//
+-Blogging about stuff you're working on - should be helpful
+
+//Metrics//
+-look into routinely getting reports on number of visitors
