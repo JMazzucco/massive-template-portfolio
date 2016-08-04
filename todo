@@ -12,7 +12,7 @@ Improvements to make
 
 //IMAGES//
 -Add a few mockup images, displaying the app/site on a phone, tablet, screen.
--use http://m-goldstein.com/ as inspiration for images
+-use http://m-goldstein.com/ as inspiration for images --and this http://www.blakemattos.com/
 -Add 1 or 2 sliders where it would be helpful - i.e. show 3 pages or features
 -Remove borders and gutters
 Overlay: remove link icon and add the name of the app/site and some useful info about it
@@ -27,9 +27,11 @@ Overlay: remove link icon and add the name of the app/site and some useful info 
 -Show spinner until all images are loaded
 
 //CONTENT//
--Make the "who am I" paragraph sound better
+-Make the About page content sound more upbeat and engaging
 
-//
+//CASE STUDY PAGES
+??
+
 
 
 //SEO//
