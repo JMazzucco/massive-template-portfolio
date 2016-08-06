@@ -1418,7 +1418,7 @@ header.nav-block-left {
 
 
 .page-content {
-    padding: 100px 0;
+    padding: 150px 0;
     display: inline-block;
     width: 100%;
 }
@@ -4661,6 +4661,7 @@ address p {
 .navbar-brand img {
     height: 45px;
     margin-top: -12px;
+    padding: 2px;
 }
 
 .navbar-nav a {
@@ -4674,6 +4675,7 @@ address p {
 .navbar-inverse .navbar-nav>li>.active {
     color: #fff;
 }
+
 
 .navbar-toggle {
   height: 35px;
