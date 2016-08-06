@@ -4679,6 +4679,7 @@ address p {
 
 .navbar-toggle {
   height: 35px;
+  padding: 8px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
