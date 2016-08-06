@@ -1418,7 +1418,7 @@ header.nav-block-left {
 
 
 .page-content {
-    padding: 145px 0;
+    padding: 100px 0;
     display: inline-block;
     width: 100%;
 }
@@ -4658,20 +4658,36 @@ address p {
     background-size: cover;
 }
 
-
-.navbar-inverse {
-    height: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.navbar-brand img {
+    height: 45px;
+    margin-top: -12px;
 }
 
-.navbar-inverse .navbar-nav>li>a.active {
+.navbar-nav a {
+    font-family: 'Varela Round', 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav>li>.active {
     color: #fff;
 }
 
-.navbar-inverse .navbar-nav>li {
-    font-family: 'Varela Round', 'Source Sans Pro', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: .5px;
+.navbar-toggle {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-toggle i {
+    color: #fff;
+}
+
+ @media (min-width: 768px) {
+   .navbar-toggle {
+     display: none !important;
+   }
 }
