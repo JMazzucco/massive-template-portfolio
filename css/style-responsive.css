@@ -54,7 +54,9 @@ Table of contents
 
 @media screen and (max-width: 992px) {
 
-
+    #footer.dark .social-link.circle a {
+        margin: 5px;
+    }
 
     /*portfolio   grid*/
     .portfolio.col-2 .portfolio-item,
@@ -505,7 +507,6 @@ Table of contents
 
 
 
-
 }
 
 @media screen and (max-width: 767px) {
@@ -570,11 +571,9 @@ Table of contents
 
     }
 
-
     .footer-3 .f-logo-center,
     .footer-4 .f-logo-center{
         left: 40px !important;
-
     }
 
     .footer-4 .copyright-sub-title {
