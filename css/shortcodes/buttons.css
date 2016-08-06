@@ -19,7 +19,7 @@
     font-weight: normal;
 }
 
-.btn-small {
+.btn-small *{
     vertical-align: sub;
 }
 
