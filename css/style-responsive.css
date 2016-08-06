@@ -67,8 +67,7 @@ Table of contents
     }
 
     .social-link.pull-right {
-        float: left !important;
-        margin-top: 10px;
+
     }
 
     #footer.dark .secondary-footer .social-link a {
@@ -829,6 +828,7 @@ Table of contents
     .fashion-footer ul,
     .fashion-footer .social-link {
         text-align: center;
+
     }
 
     .bs-hero.full-screen .carousel-inner .item .bs-info-center {

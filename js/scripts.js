@@ -18,6 +18,18 @@
     });
 
     /* ---------------------------------------------
+     responsive
+     --------------------------------------------- */
+
+    $(window).resize(function(){
+        if ($(window).width() <= 768){
+            $( ".social-link" ).addClass( "center" );
+        } else {
+            $( ".social-link" ).addClass( "pull-right" );
+        }
+    });
+
+    /* ---------------------------------------------
      WOW init
      --------------------------------------------- */
     if (typeof WOW == "function")
