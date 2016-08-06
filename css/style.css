@@ -1418,7 +1418,7 @@ header.nav-block-left {
 
 
 .page-content {
-    padding: 100px 0;
+    padding: 145px 0;
     display: inline-block;
     width: 100%;
 }
@@ -4659,12 +4659,19 @@ address p {
 }
 
 
-/*-----------------------------------------------
-    mobile (responsive) styles
------------------------------------------------*/
+.navbar-inverse {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-@media (max-width:500px){
-    * {
-        color: red;
-    }
+.navbar-inverse .navbar-nav>li>a.active {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li {
+    font-family: 'Varela Round', 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .5px;
 }
