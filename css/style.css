@@ -4667,7 +4667,6 @@ address p {
 .navbar-nav a {
     font-family: 'Varela Round', 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
-    font-weight: 600;
     letter-spacing: 1.2px;
     font-size: 16px;
 }
