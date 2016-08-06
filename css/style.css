@@ -605,7 +605,7 @@ header .dark-header .menuzord-menu>li>a>i
     z-index: 99;
     min-width: 190px;
     white-space: nowrap;
-    background: #fff
+    background: #blue;
 }
 .menuzord-menu ul.dropdown li ul.dropdown {
     left: 100%;
@@ -4656,4 +4656,15 @@ address p {
 .page-title {
     background-image: url("../img/portfolio-background.png");
     background-size: cover;
+}
+
+
+/*-----------------------------------------------
+    mobile (responsive) styles
+-----------------------------------------------*/
+
+@media (max-width:500px){
+    * {
+        color: red;
+    }
 }
