@@ -16,7 +16,7 @@ Improvements to make
 -Add 1 or 2 sliders where it would be helpful - i.e. show 3 pages or features
 -Remove borders and gutters
 Overlay: remove link icon and add the name of the app/site and some useful info about it
--title: css/js animation of logo. Split it into sections and change color
+-title: css/js animation of logo. Split it into sections and change color. Remove title text.
 
 //LAYOUT//
 -Make the site responsive
