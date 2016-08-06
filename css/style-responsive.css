@@ -571,11 +571,28 @@ Table of contents
 
     }
 
+
     .footer-3 .f-logo-center,
     .footer-4 .f-logo-center{
         left: 40px !important;
+
     }
 
+    .footer-4 .copyright-sub-title {
+        display: none;
+    }
+
+    .footer-4 .social-link{
+        padding: 0;
+    }
+
+    #footer.dark .social-link.circle a {
+        margin: 5px;
+    }
+
+    .footer-4 {
+        text-align: center;
+    }
 
     .clients.grid-2 li, .clients.grid-3 li, .clients.grid-4 li, .clients.grid-5 li, .clients.grid-6 li {
         width: 50%;

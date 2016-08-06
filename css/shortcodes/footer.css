@@ -192,20 +192,7 @@
     footer 3
 -------------------------------------------------------------------*/
 
-.footer-3, .footer-4 {
-    position: relative;
-}
 
-.footer-3 .f-logo-center {
-    text-align: center;
-    position: absolute;
-    top: -50px;
-    background-color: #fff;
-    padding: 20px;
-    left: 50%;
-    margin-left: -3%;
-    border: 5px solid #f5f5f5;
-}
 
 
 .footer-4 .f-logo-center {
@@ -225,10 +212,14 @@
     padding: 80px 0;
 }
 
-.footer-4.dark .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media (min-width:768px) {
+
+    .footer-4.dark .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
 
 .footer-4.dark .social-link  a {
